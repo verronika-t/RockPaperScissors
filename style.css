@@ -1,0 +1,41 @@
+html body {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#buttons {
+display: flex;
+justify-content: center;
+}
+
+.rpsButton {
+    margin: 20px;
+    font-size: 100px;
+    border-radius: 30px;
+}
+
+#endGameButton {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 60px;
+    border-radius: 10px;
+}
+
+#player-score, #hands, #result, #tittle  {
+    margin: auto;
+    text-align: center;
+    width: 240px;
+    font-size: x-large;
+    color: white;
+}
+
+#tittle {
+    margin-top: 50px;
+    border: 2px solid;
+    border-radius: 16px;
+    width: 300px;
+}
